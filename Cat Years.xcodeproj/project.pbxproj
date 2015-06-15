@@ -13,6 +13,7 @@
 		7A1E60AE1B26310800FBC14D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E60AD1B26310800FBC14D /* Images.xcassets */; };
 		7A1E60B11B26310800FBC14D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E60AF1B26310800FBC14D /* LaunchScreen.xib */; };
 		7A1E60BD1B26310800FBC14D /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E60BC1B26310800FBC14D /* Cat_YearsTests.swift */; };
+		7A1E60C71B2632BB00FBC14D /* nocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E60C61B2632BB00FBC14D /* nocat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +23,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7A1E60A01B26310800FBC14D;
 			remoteInfo = "Cat Years";
+		};
+		7A5AD2AA1B287E2600F4883D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5AD2A51B287E2400F4883D /* Cat Age Calculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A5AD2801B287E2400F4883D;
+			remoteInfo = "Cat Age Calculator";
+		};
+		7A5AD2AC1B287E2600F4883D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5AD2A51B287E2400F4883D /* Cat Age Calculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A5AD2951B287E2400F4883D;
+			remoteInfo = "Cat Age CalculatorTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +51,8 @@
 		7A1E60B61B26310800FBC14D /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1E60BB1B26310800FBC14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A1E60BC1B26310800FBC14D /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
+		7A1E60C61B2632BB00FBC14D /* nocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nocat.png; sourceTree = "<group>"; };
+		7A5AD2A51B287E2400F4883D /* Cat Age Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Cat Age Calculator.xcodeproj"; path = "../../../../AD201/Cat Age Calculator/Cat Age Calculator.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +97,8 @@
 				7A1E60A61B26310800FBC14D /* AppDelegate.swift */,
 				7A1E60A81B26310800FBC14D /* ViewController.swift */,
 				7A1E60AA1B26310800FBC14D /* Main.storyboard */,
+				7A5AD2A51B287E2400F4883D /* Cat Age Calculator.xcodeproj */,
+				7A1E60C61B2632BB00FBC14D /* nocat.png */,
 				7A1E60AD1B26310800FBC14D /* Images.xcassets */,
 				7A1E60AF1B26310800FBC14D /* LaunchScreen.xib */,
 				7A1E60A41B26310800FBC14D /* Supporting Files */,
@@ -110,6 +129,15 @@
 				7A1E60BB1B26310800FBC14D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A5AD2A61B287E2400F4883D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A5AD2AB1B287E2600F4883D /* Cat Age Calculator.app */,
+				7A5AD2AD1B287E2600F4883D /* Cat Age CalculatorTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +207,12 @@
 			mainGroup = 7A1E60981B26310700FBC14D;
 			productRefGroup = 7A1E60A21B26310800FBC14D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7A5AD2A61B287E2400F4883D /* Products */;
+					ProjectRef = 7A5AD2A51B287E2400F4883D /* Cat Age Calculator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7A1E60A01B26310800FBC14D /* Cat Years */,
@@ -187,12 +221,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7A5AD2AB1B287E2600F4883D /* Cat Age Calculator.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cat Age Calculator.app";
+			remoteRef = 7A5AD2AA1B287E2600F4883D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7A5AD2AD1B287E2600F4883D /* Cat Age CalculatorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cat Age CalculatorTests.xctest";
+			remoteRef = 7A5AD2AC1B287E2600F4883D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7A1E609F1B26310800FBC14D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A1E60AC1B26310800FBC14D /* Main.storyboard in Resources */,
+				7A1E60C71B2632BB00FBC14D /* nocat.png in Resources */,
 				7A1E60B11B26310800FBC14D /* LaunchScreen.xib in Resources */,
 				7A1E60AE1B26310800FBC14D /* Images.xcassets in Resources */,
 			);
@@ -411,6 +463,7 @@
 				7A1E60C21B26310800FBC14D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A1E60C31B26310800FBC14D /* Build configuration list for PBXNativeTarget "Cat YearsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +472,7 @@
 				7A1E60C51B26310800FBC14D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

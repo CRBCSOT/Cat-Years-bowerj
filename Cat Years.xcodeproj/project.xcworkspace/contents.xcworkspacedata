@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Cat Age Calculator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "self:Cat Years.xcodeproj">
    </FileRef>
 </Workspace>
